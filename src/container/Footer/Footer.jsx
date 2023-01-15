@@ -4,23 +4,12 @@ import "./Footer.scss";
 
 export default class Footer extends Component {
     render() {
-        let Data = this.props.Data;
         return (
             <footer>
                 <div className="row">
                     <div className="twelve columns">
                         <ul className="social-links">
-                            {
-                                Data.socialLinks && Data.socialLinks.map((item) => {
-                                    return (
-                                        <li>
-                                            <a href={item.url}>
-                                                <i className={item.className} />
-                                            </a>
-                                        </li>
-                                    )
-                                })
-                            }
+                            Bay City General Glass
                         </ul>
                     </div>
                     <div id="go-top">

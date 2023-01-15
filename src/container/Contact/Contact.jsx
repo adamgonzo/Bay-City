@@ -117,7 +117,7 @@ export default class ContactUs extends Component {
                         <input
                           type="hidden"
                           name="subject"
-                          value="New Submission from Web3Forms"
+                          value="New Submission from Bay City General Glass Website"
                         />
                         <input
                           type="hidden"

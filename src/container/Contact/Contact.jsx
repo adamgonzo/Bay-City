@@ -119,11 +119,16 @@ export default class ContactUs extends Component {
                           name="subject"
                           value="New Submission from Bay City General Glass Website"
                         />
-                        {/* <input 
+                        <input 
                         type="hidden" 
                         name="redirect" 
-                        value="https://partnerwebsite.com/someaction/"
-                        /> */}
+                        value="https:www.baycitygeneralglass.net"
+                        />
+                        <input 
+                        type="hidden" 
+                        name="from_name" 
+                        value="Bay City General Glass" 
+                        />
                         <input
                           type="hidden"
                           name="redirect"

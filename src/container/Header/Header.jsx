@@ -43,7 +43,7 @@ export default class Header extends Component {
           <div className="row banner">
             <div className="banner-text">
               <h1 className="responsive-headline">{Data.name}.</h1>
-              <h3
+              {/* <h3
                 className="intro"
                 style={{ color: "fff", fontFamily: "sans-serif" }}
               >
@@ -61,7 +61,7 @@ export default class Header extends Component {
                       </li>
                     );
                   })}
-              </ul>
+              </ul> */}
             </div>
           </div>
 
